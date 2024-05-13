@@ -3,7 +3,7 @@ import 'package:get/get.dart';
 
 import './core/constant/theme.dart';
 import './routes.dart';
-import './view/screen/navigation_bar_page.dart';
+import './view/screen/onboarding_page.dart';
 
 Future<void> main() async {
   /* WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       theme: CustomTheme.lightTheme,
       title: 'Flutter Demo',
       getPages: routes,
-      home: const NavigationBarPage(),
+      home: const OnBoarding(),
     );
   }
 }
